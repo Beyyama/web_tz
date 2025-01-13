@@ -17,7 +17,7 @@
 
     <section id="about">
         <h2>Über mich</h2>
-        <p>Ich bin ein Webentwickler und lerne HTML und CSS.</p>
+        <p>Ich bin ein Webentwicklerin und lerne HTML und CSS.</p>
     </section>
 
     <section id="projects">
