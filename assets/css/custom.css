@@ -1,0 +1,64 @@
+main{
+    background-color:rgb(233, 229, 223);
+    padding: 100px;
+    padding-left: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 90px;
+    outline: 3px solid rgb(255, 255, 255);
+    
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    
+}  
+h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 60px;
+    color: rgb(247, 242, 236);
+    font-family: 'helvetica';
+    font-variant: small-caps;
+    -webkit-text-stroke: rgba(218, 214, 204, 0.459) 2px;
+    text-shadow: rgb(238, 234, 221) 2px 2px 2px;
+
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(177, 174, 165);
+    font-family: 'helvetica';
+}
+.boxA{
+    color: rgb(202, 199, 190);
+    border: 2px solid rgb(230, 227, 218);
+    padding-left: 10px;
+    padding-right: 45px;
+    width: fit-content;
+    margin: 20px;      
+    background-color: rgba(218, 214, 204, 0.459);
+    border-style: solid;
+}
+
+.boxA a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(177, 174, 165);
+    font-size: 20px;
+    font-family: 'helvetica';
+    font-variant: large-caps;
+    margin: 5px;
+    display: inline-block;
+    transition: transform 0.5s ease, color 0.5s ease;
+
+}
+
+.boxA a:hover{
+    transform: scale(1.05);
+}
+
+body{
+    background-image: url(/texture.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
