@@ -57,8 +57,22 @@ p{
 }
 
 body{
-    background-image: url(/texture.jpg);
+    background-image: url('http://localhost/WEB_TZ/assets/img/texture.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+h2{
+    text-align: left;
+    font-size: 25px;
+    color: rgb(160, 151, 141);
+    font-family: 'helvetica';
+    
+    -webkit-text-stroke: rgba(218, 214, 204, 0.459) 2px;
+    text-shadow: rgb(238, 234, 221) 2px 2px 2px;
+    
+}
+
+
+
